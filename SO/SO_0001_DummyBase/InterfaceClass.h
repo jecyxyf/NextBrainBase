@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "../Common/LogClass.h"
+#include "../../Common/LogClass.h"
 
 /// @brief 对象交互器类.用于处理对象与外部环境的交互逻辑.
 class InterfaceClass

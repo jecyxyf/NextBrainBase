@@ -1,7 +1,7 @@
 ﻿#pragma once
-#include "../Common/TopoDS_Shape.h"
+#include <TopoDS_Shape.h>
 #include <array>
-#include "../Common/Pose.h"
+#include <Pose.h>
 #include <functional>
 
 /// @brief 对象数模逻辑类.用于存储和管理对象的几何形状和位姿信息.

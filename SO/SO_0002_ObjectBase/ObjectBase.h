@@ -1,7 +1,7 @@
 ﻿#pragma once
-#include "../Common/GUID.h"
-#include "../DummyBase/DummyBase.h"
-#include "ObjectShape.h"
+#include <GUID.h>
+#include <DummyBase.h>
+#include <ObjectShape.h>
 #include <vector>
 #include <memory>
 

@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "DummyBase/DummyBase.h"
-#include "ObjectBase/ObjectBase.h"
-#include "DeviceBase/DeviceBase.h"
+#include "DummyBase.h"
+#include "ObjectBase.h"
+#include "DeviceBase.h"
 int main() 
 {
     // DeviceBase device;

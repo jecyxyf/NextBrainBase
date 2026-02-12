@@ -1,8 +1,8 @@
 ﻿#pragma once
 
-#include "../DummyBase/DummyBase.h"
-#include "DeviceShape.h"
-#include "DeviceJoint.h"
+#include <DummyBase.h>
+#include <DeviceShape.h>
+#include <DeviceJoint.h>
 
 /// @brief 通用性设备描述基类
 class DeviceBase : public DummyBase

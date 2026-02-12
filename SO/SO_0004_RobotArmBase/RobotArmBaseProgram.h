@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "RobotArmBaseCMD.h"
+#include <RobotArmBaseCMD.h>
 
 /// @brief 机械臂轨迹类,用于存储和管理机械臂的轨迹信息,包括若干组指令
 /// @note 可能需要继承ObjectBase类,以便于批量渲染路径坐标系

@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "../Common/LogClass.h"
+#include <LogClass.h>
 #include <map>
 
 /// @brief 机械臂输入输出接口类,用于存储和管理机械臂的输入输出信息,包括数字输入输出和组输入输出

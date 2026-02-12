@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "../Common/GUID.h"
+#include "../../Common/GUID.h"
 #include "InterfaceClass.h"
 #include "ParamClass.h"
 

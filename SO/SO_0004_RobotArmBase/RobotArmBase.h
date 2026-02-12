@@ -1,11 +1,10 @@
 ﻿#pragma once
 
-#include "RobotArmBaseShape.h"
-#include "RobotArmBaseKinematic.h"
-#include "RobotArmBaseFunc.h"
-#include "RobotArmBaseIO.h"
-
-#include "../DeviceBase/DeviceBase.h"
+#include <RobotArmBaseShape.h>
+#include <RobotArmBaseKinematic.h>
+#include <RobotArmBaseFunc.h>
+#include <RobotArmBaseIO.h>
+#include <DeviceBase.h>
 
 class RobotArmBase : public DeviceBase
 {

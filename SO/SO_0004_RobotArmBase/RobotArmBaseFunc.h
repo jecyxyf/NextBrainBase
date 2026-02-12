@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <vector>
-#include "../Common/Pose.h"
-#include "../DeviceBase/DeviceJoint.h"
-#include "RobotArmBaseProgram.h"
+#include <Pose.h>
+#include <DeviceJoint.h>
+#include <RobotArmBaseProgram.h>
 
 class TcpPose
 {

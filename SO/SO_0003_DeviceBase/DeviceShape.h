@@ -1,8 +1,8 @@
 ﻿#pragma once
-#include "../Common/TopoDS_Shape.h"
+#include <TopoDS_Shape.h>
 #include <array>
-#include "../Common/Pose.h"
-#include "../Common/LogClass.h"
+#include <Pose.h>
+#include <LogClass.h>
 #include <functional>
 #include <string>
 

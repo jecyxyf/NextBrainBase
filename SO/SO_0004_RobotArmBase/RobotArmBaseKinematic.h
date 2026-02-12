@@ -1,6 +1,6 @@
 ﻿#pragma once
-#include "../Common/LogClass.h"
-#include "../Common/RobotPointData.h"
+#include <LogClass.h>
+#include <RobotPointData.h>
 
 struct axisMDH
 {

@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "../Common/LogClass.h"
+#include <LogClass.h>
 
 class RobotArmBaseCMD
 {

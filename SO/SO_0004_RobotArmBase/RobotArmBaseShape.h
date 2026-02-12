@@ -1,7 +1,10 @@
 ﻿#pragma once
-#include "../DeviceBase/DeviceShape.h"
-#include "../DeviceBase/DeviceBase.h"
-#include "../ObjectBase/ObjectBase.h"
+
+#include <DeviceShape.h>
+#include <DeviceBase.h>
+#include <ObjectBase.h>
+#include <vector>
+
 class RobotArmBaseShape : public DeviceShape
 {
 protected:
