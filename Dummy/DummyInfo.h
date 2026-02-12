@@ -5,7 +5,7 @@
 #include "../Common/LogClass.h"
 class DummyInfo
 {
-private:
+protected:
 
     /// @brief 对象名称
     std::string name;
@@ -14,7 +14,7 @@ private:
     const GUID id = GUID();
 
     // @brief 对象类型
-    const std::string type = "SO0000";
+    const std::string classType = "SO0000";
 
 public:
     DummyInfo() = default;
@@ -27,7 +27,11 @@ public:
 
     /// @brief 设置名称
     /// @param name_ 
-    RetStatus setName(const std::string& name_) { name = name_; }
+    RetStatus setName(const std::string& name_) 
+    { 
+        name = name_; 
+        return RetStatus( 0, "");
+    }
 
     /// @brief 获取名称
     /// @return 名称
@@ -39,5 +43,5 @@ public:
 
     /// @brief 获取类型
     /// @return 类型
-    std::string getType() const { return type; }
+    std::string getType() const { return classType; }
 };

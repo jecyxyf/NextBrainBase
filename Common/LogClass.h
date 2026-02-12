@@ -14,13 +14,12 @@ enum LogType
 class RetStatus
 {
 public:
-    LogType type = LOG_INFO;
     long code = 0;
     std::string message = "";
 
     RetStatus() = default;
-    RetStatus(LogType t, long c, const std::string& msg)
-        : type(t), code(c), message(msg)
+    RetStatus( long c, const std::string& msg)
+        :  code(c), message(msg)
     {
     }   
 };

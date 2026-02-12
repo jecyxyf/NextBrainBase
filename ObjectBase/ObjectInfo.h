@@ -10,7 +10,7 @@
 class ObjectInfo : public DummyInfo
 {
 private:
-    
+    const std::string classType = "SO0001";
 public:
 
 };
