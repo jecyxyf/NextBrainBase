@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "../Common/GUID.h"
-#include "DummyInterface.h"
-#include "DummyParam.h"
+#include "InterfaceClass.h"
+#include "ParamClass.h"
 
 /// @brief 不包含数模的类,一切的基类
 class DummyBase 
@@ -17,9 +17,9 @@ public:
     const std::string classType = "SO0001";
 
     /// @brief 对象交互接口
-    DummyInterface interface;
+    InterfaceClass interface;
 
     /// @brief 对象参数信息
-    DummyParam param;
+    ParamClass param;
 
 };

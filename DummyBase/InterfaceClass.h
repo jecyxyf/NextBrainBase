@@ -3,7 +3,7 @@
 #include "../Common/LogClass.h"
 
 /// @brief 对象交互器类.用于处理对象与外部环境的交互逻辑.
-class DummyInterface
+class InterfaceClass
 {
 public:
     /// @brief 应用加载时调用,例如加载配置文件

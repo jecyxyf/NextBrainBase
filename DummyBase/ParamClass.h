@@ -3,7 +3,7 @@
 #include "../Common/LogClass.h"
 
 /// @brief 对象参数类.用于存储和管理对象的参数信息.
-class DummyParam
+class ParamClass
 {
 public:
     /// @brief 此处为参数的根指针
