@@ -17,6 +17,11 @@ protected:
     /// @brief 型号
     std::string model;
 
+public:
+
+    /// @brief 类型
+    const std::string classType = "SO0003";
+
     /// @brief 设备数模信息
     DeviceShape shape;
 
@@ -25,11 +30,6 @@ protected:
 
     /// @brief 设备基础对象列表
     std::shared_ptr<ObjectBase> baseObjects = nullptr;
-
-public:
-
-    /// @brief 类型
-    const std::string classType = "SO0003";
 
     /// @brief 设置是否为虚拟设备
     /// @param isVirtualDevice_
