@@ -3,9 +3,6 @@ project(ObjectBase VERSION 0.1.0 LANGUAGES C CXX)
 
 add_library(ObjectBase 
 ObjectBase.h ObjectBase.cpp
-ObjectInfo.h 
-ObjectInterface.h
-ObjectParam.h 
 ObjectShape.h 
 )
 

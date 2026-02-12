@@ -1,30 +1,21 @@
 ﻿#pragma once
 #include "../Common/GUID.h"
-#include "ObjectInfo.h"
-#include "ObjectInterface.h"
-#include "ObjectParam.h"
+#include "../DummyBase/DummyBase.h"
 #include "ObjectShape.h"
 #include <vector>
 #include <memory>
 
 /// @brief 对象基类.面向仿真环境内的单个数模对象.
-class ObjectBase
+class ObjectBase : public DummyBase
 {
-public:
-    ObjectBase() = default;
-    ~ObjectBase() = default;
 
-    /// @brief  对象信息
-    ObjectInfo info;
+public:
+    
+    /// @brief 类型
+    const std::string classType = "SO0002";
 
     /// @brief 对象位姿
     ObjectShape shape;
-
-    /// @brief 对象参数
-    ObjectParam param; 
-
-    /// @brief 对象交互接口
-    ObjectInterface interface;
 
     /// @brief 父对象指针
     std::shared_ptr<ObjectBase> parentObject = nullptr;

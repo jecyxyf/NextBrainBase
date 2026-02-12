@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "DummyInfo.h"
+#include "../Common/GUID.h"
 #include "DummyInterface.h"
 #include "DummyParam.h"
 
@@ -8,12 +8,18 @@ class DummyBase
 {
 public:
 
-    /// @brief 对象基础信息
-    DummyInfo info;
+    /// @brief 对象名称
+    std::string name;
 
-    /// @brief 对象仿真接口
+    /// @brief 对象GUID号
+    const GUID id = GUID();
+
+    const std::string classType = "SO0001";
+
+    /// @brief 对象交互接口
     DummyInterface interface;
 
     /// @brief 对象参数信息
     DummyParam param;
+
 };

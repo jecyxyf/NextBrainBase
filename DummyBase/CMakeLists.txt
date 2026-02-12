@@ -3,7 +3,6 @@ project(DummyBase VERSION 0.1.0 LANGUAGES C CXX)
 
 add_library(DummyBase 
 DummyBase.h DummyBase.cpp
-DummyInfo.h
 DummyInterface.h
 DummyParam.h
 )
