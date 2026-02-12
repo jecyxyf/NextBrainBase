@@ -4,7 +4,7 @@
 #include "../ObjectBase/ObjectBase.h"
 class RobotArmBaseShape : public DeviceShape
 {
-private:
+protected:
 
     /// @brief 机械臂夹具对象信息
     std::vector<DeviceBase> toolShapes;

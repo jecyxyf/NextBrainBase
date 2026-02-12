@@ -10,10 +10,10 @@
 class RobotArmBase : public DeviceBase
 {
 
-private:
+public:
 
     /// @brief 机械臂类型
-    const std::string deviceType = "SO0004";
+    const std::string classType = "SO0004";
 
     /// @brief 机械臂数模信息
     RobotArmBaseShape shape;

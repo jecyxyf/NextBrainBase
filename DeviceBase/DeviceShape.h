@@ -10,7 +10,7 @@
 class DeviceShape
 {
 
-private:
+protected:
 
     /// @brief 是否可交互
     bool isInteractive = false;
