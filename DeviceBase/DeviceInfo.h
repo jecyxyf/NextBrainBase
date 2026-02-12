@@ -2,7 +2,7 @@
 
 #include "../Common/GUID.h"
 #include "../Common/LogClass.h"
-#include "../Dummy/DummyInfo.h"
+#include "../DummyBase/DummyInfo.h"
 
 #include <string>
 #include <functional>

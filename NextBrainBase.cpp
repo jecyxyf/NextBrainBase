@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Dummy/DummyBase.h"
+#include "DummyBase/DummyBase.h"
 #include "ObjectBase/ObjectBase.h"
 #include "DeviceBase/DeviceBase.h"
 int main() 
