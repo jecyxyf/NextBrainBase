@@ -7,7 +7,7 @@
 class DummyBase 
 {
 public:
-    
+
     /// @brief 对象基础信息
     DummyInfo info;
 

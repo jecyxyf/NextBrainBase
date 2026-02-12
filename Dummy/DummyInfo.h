@@ -2,10 +2,10 @@
 
 #include <string>
 #include "../Common/GUID.h"
-
+#include "../Common/LogClass.h"
 class DummyInfo
 {
-public:
+private:
 
     /// @brief 对象名称
     std::string name;
@@ -15,4 +15,29 @@ public:
 
     // @brief 对象类型
     const std::string type = "SO0000";
+
+public:
+    DummyInfo() = default;
+    ~DummyInfo() = default;
+
+    DummyInfo(const std::string& name_)
+        : name(name_)
+    {
+    }
+
+    /// @brief 设置名称
+    /// @param name_ 
+    RetStatus setName(const std::string& name_) { name = name_; }
+
+    /// @brief 获取名称
+    /// @return 名称
+    std::string getName() const { return name; }
+
+    /// @brief 获取GUID
+    /// @return GUID
+    GUID getID() const { return id; }
+
+    /// @brief 获取类型
+    /// @return 类型
+    std::string getType() const { return type; }
 };
